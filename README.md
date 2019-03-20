@@ -3,11 +3,19 @@ This contains my code for the evaluation test for GSOC 2019 Implementing HDF5 IO
 
 To run my code do the following:
 
-Wherever PODIO code is downloaded from github run the scripts.sh file by doing :-
+Wherever PODIO code is downloaded from github run the script.sh file in that directory by doing :-
 
-. script.sh
+  . script.sh   (or bash script.sh)
 
 
 Then to run my C++ code for evaluation test do the following:
+
+  make
+
+  make test
+  
+It will run the code and produce an output with SimpleStruct Array and also an output.h5 file from which it reads and writes
+
+-Akhil Vaid (NSIT, New Delhi, India)
 
 
