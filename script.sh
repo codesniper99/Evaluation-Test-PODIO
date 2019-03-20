@@ -12,4 +12,4 @@ make -j 4 install
 
 python ../tests/read.py
 
-make tests
+make test
