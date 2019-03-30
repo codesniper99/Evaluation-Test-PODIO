@@ -8,11 +8,11 @@ To run my code do the following:
 
 Then to run my C++ code for evaluation test do the following:
 
-'''cpp
-    make compileWrite
 
-   make compileRead
-'''  
+#   make compileWrite
+
+#   make compileRead
+
 
 It will run the code(Write.cpp and Read.cpp) and produce an output with SimpleStruct Array and also an output.h5 file from which it reads and writes.
 
